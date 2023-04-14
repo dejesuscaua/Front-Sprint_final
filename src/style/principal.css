@@ -84,6 +84,7 @@ nav a:hover::after {
 #inicio {
     margin-top: 10rem;
     margin: 2rem;
+    display: flex;
     
 }
 #texto-inicio h1{
