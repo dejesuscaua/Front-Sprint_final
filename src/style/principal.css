@@ -5,10 +5,14 @@
 
 }
 
+#titulo {
+    background-color: #004643;
+
+}
+
 #logo {
     width: 200px;
     margin-left: 2rem;
-    margin-right: auto;
    
 }
 header {
@@ -21,22 +25,11 @@ header {
 
 header img {
     height: 50px;
-    
 }
 
-<<<<<<< HEAD
-#Menu{
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-#Menu a {
-=======
 nav{
             position: fixed;
-			top: 0;
+			top: 0.75rem;
 			left: 0;
 			width: 100%;
 			display: flex;
@@ -69,14 +62,18 @@ nav a:hover::after {
 }
 
 #Menu ul {
->>>>>>> 29d78dd8c54759d8bbb583b8eed6656bf9a01acf
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    color: #faf4d3;
-    text-decoration: none;
+}
+
+#Menu li {
     margin-right: 20px;
 }
 
+#Menu a {
+    color: #faf4d3;
+    text-decoration: none;
+}
 
