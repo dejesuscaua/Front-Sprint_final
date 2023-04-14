@@ -5,14 +5,10 @@
 
 }
 
-#titulo {
-    background-color: #004643;
-
-}
-
 #logo {
     width: 200px;
     margin-left: 2rem;
+    margin-right: auto;
    
 }
 header {
@@ -25,22 +21,24 @@ header {
 
 header img {
     height: 50px;
+    
 }
 
-#Menu ul {
+#Menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#Menu a {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-#Menu li {
-    margin-right: 20px;
-}
-
-#Menu a {
     color: #faf4d3;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 
