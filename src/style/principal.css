@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+
+}
+
+#titulo {
+    background-color: #004643;
+
+}
+
+#logo {
+    width: 200px;
+    margin-left: 2rem;
+   
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #004643;
+}
+
+header img {
+    height: 50px;
+}
+
+#Menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu li {
+    margin-right: 20px;
+}
+
+#Menu a {
+    color: #faf4d3;
+    text-decoration: none;
+}
+
+
