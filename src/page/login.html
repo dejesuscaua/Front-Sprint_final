@@ -3,62 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login de Usuário</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
-		}
-		form {
-			background-color: #fff;
-			padding: 20px;
-			border-radius: 5px;
-			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-			margin: 0 auto;
-			width: 400px;
-		}
-		label {
-			display: block;
-			margin-bottom: 10px;
-		}
-		input[type="text"], input[type="password"] {
-			width: 100%;
-			padding: 10px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			margin-bottom: 20px;
-			box-sizing: border-box;
-			font-size: 16px;
-		}
-		button[type="submit"] {
-			background-color: #008CBA;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			font-size: 16px;
-			cursor: pointer;
-			margin-top: 10px;
-		}
-		button[type="submit"]:hover {
-			background-color: #006F8C;
-		}
-		.error-message {
-			color: #ff0000;
-			margin-bottom: 10px;
-		}
-	</style>
 	<script src="../src/script/script_login.js"></script>
+	<link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
-	<form onsubmit="return validateForm()">
-		<label for="username">Usuário:</label>
-		<input type="text" id="username" name="username" required>
+	<div>
+		<form onsubmit="return validateForm()">
+			<label for="username">Usuário:</label>
+			<input type="text" id="username" name="username" required>
 
-		<label for="password">Senha:</label>
-		<input type="password" id="password" name="password" required>
+			<label for="password">Senha:</label>
+			<input type="password" id="password" name="password" required>
 
-		<button type="submit">Entrar</button>
-	</form>
-	<div id="error-message" class="error-message"></div>
+			<center><button type="submit">Entrar</button></center>
+		</form>
+	</div>
+
+	<center><div id="error-message" class="error-message"></div></center>
 </body>
 </html>
