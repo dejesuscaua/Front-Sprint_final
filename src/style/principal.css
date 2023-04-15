@@ -105,11 +105,16 @@ section.visible {
     
 }
 #texto-inicio h1{
+margin-top: 10rem;
  display: flex;
 justify-content: center;
 }
 #texto-inicio p{
-    margin-top: 10rem;
+    margin-top: 5rem;
+}
+#imagem-inicio{
+    margin-top: 5rem;
+
 }
 
 
