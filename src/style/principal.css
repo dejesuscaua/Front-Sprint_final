@@ -147,6 +147,27 @@ section.visible {
 
 }
 
+#Impactos{
+    margin-top: 10rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#texto-impactos h1{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+#texto-impactos p, ul {
+    margin-top: 5rem;
+}
+
+#imagem-impactos {
+    
+    margin-top: 15rem;
+
+}
 #Contato table {
     border-collapse: collapse;
     margin: auto;
