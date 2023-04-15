@@ -38,6 +38,10 @@ button[type="submit"]:hover {
     background-color: #160c28;
 
 }
+
+#home{
+    color: #160c28;
+}
 .error-message {
     color: #ff0000;
     margin-bottom: 10px;
