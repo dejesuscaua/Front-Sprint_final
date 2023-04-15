@@ -81,6 +81,10 @@ section.visible {
     transform: translateY(0);
 }
 
+#inicio{
+    padding-top: 150px;
+}
+
 #Menu ul {
     display: flex;
     list-style: none;
