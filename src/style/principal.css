@@ -81,9 +81,6 @@ section.visible {
     transform: translateY(0);
 }
 
-#inicio {
-    padding-top: 150px;
-}
 
 #Menu ul {
     display: flex;
@@ -106,6 +103,7 @@ section.visible {
     margin: 2rem;
     display: flex;
     justify-content: space-between;
+    padding-top: 150px;
 
 }
 
@@ -126,9 +124,30 @@ section.visible {
 
 
 #Contexto {
+    margin-top: 10rem;
     margin: 2rem;
-    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+
 }
+
+#texto-contexto h1 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+#texto-contexto p {
+    margin-top: 5rem;
+}
+
+#imagem-contexto {
+    margin-top: 5rem;
+
+}
+
+
 
 #Matrizes {
     margin-top: 5rem;
@@ -165,20 +184,21 @@ section.visible {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  
-  
-  #Impactos ul {
+}
+
+
+
+#Impactos ul {
     margin-left: 20px;
     margin-bottom: 20px;
-  }
-  #Impactos li {
+}
+
+#Impactos li {
     font-size: 1.1rem;
     margin-bottom: 10px;
-  }
-  
-  
+}
+
+
 #Solucao h1 {
     margin-left: 2rem;
 
@@ -205,20 +225,22 @@ section.visible {
 #pq_do_nome img {
     width: 800px;
 }
-#Sobrenos h1{
+
+#Sobrenos h1 {
     display: flex;
     justify-content: center;
 }
-#Sobrenos img{
-    width: 200px; 
-  height: 200px; 
+
+#Sobrenos img {
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
-.Nomes{
+
+.Nomes {
     display: flex;
     align-items: center;
-    justify-content: flex-start ;
+    justify-content: flex-start;
 }
-
