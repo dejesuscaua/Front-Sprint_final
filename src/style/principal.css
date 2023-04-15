@@ -147,7 +147,31 @@ section.visible {
 
 }
 
-
+#Contato table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+#Contato th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+#Contato th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+#Contato a {
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Contato a:hover {
+    text-decoration: underline;
+}
 
 #Matrizes {
     margin-top: 5rem;
