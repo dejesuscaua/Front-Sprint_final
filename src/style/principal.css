@@ -85,16 +85,21 @@ nav a:hover::after {
     margin-top: 10rem;
     margin: 2rem;
     display: flex;
+    justify-content:space-between ;
     
 }
 #texto-inicio h1{
  display: flex;
 justify-content: center;
 }
+#texto-inicio p{
+    margin-top: 10rem;
+}
 
 
 #Contexto{
     margin: 2rem;
+    margin-top: 10rem;
 }
 
 #fontes{
