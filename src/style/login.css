@@ -38,6 +38,19 @@ button[type="submit"]:hover {
     background-color: #160c28;
 
 }
+
+#home{
+    color: white;
+    background-color: #eb5160;
+    padding: 10px 20px;
+    order: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+#home:hover{
+    background-color: black;
+}
 .error-message {
     color: #ff0000;
     margin-bottom: 10px;
