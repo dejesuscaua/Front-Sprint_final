@@ -69,11 +69,11 @@ nav a:hover::after {
     /* faz a linha aparecer ao passar o mouse em cima */
 }
 
-section{
-        padding: 50px;
-		opacity: 0;
-		transform: translateY(50px);
-		transition: all 0.5s ease-in-out;
+section {
+    padding: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-in-out;
 }
 
 section.visible {
@@ -81,7 +81,7 @@ section.visible {
     transform: translateY(0);
 }
 
-#inicio{
+#inicio {
     padding-top: 150px;
 }
 
@@ -105,44 +105,120 @@ section.visible {
     margin-top: 10rem;
     margin: 2rem;
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
+
+}
+
+#texto-inicio h1 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+#texto-inicio p {
+    margin-top: 5rem;
+}
+
+#imagem-inicio {
+    margin-top: 5rem;
+
+}
+
+
+#Contexto {
+    margin: 2rem;
     
 }
-#texto-inicio h1{
-margin-top: 10rem;
- display: flex;
-justify-content: center;
-}
-#texto-inicio p{
+
+#Matrizes {
     margin-top: 5rem;
-}
-#imagem-inicio{
-    margin-top: 5rem;
-
-}
-
-
-#Contexto{
-    margin: 2rem;
-    margin-top: 10rem;
-}
-
-#fontes{
-    margin-top: 10rem;
     margin: 2rem;
 }
+
 #table-fontes {
     margin-top: 5rem;
     border-collapse: collapse;
 
 
 }
-#th-fontes, #td-fontes {
+
+#th-fontes,
+#td-fontes {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
+
 #th-fontes {
     background-color: #004643;
     color: white;
 }
+
+#impactos {
+    margin-top: 10rem;
+    margin: 2rem;
+}
+
+
+
+#Impactos h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  #Impactos ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  #Impactos li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  
+#Solucao h1 {
+    margin-left: 2rem;
+
+}
+
+#clarke {
+    margin-top: 10rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pq_do_nome {
+    margin-top: 10rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pq_do_nome p {
+    margin-top: 15rem;
+}
+
+#pq_do_nome img {
+    width: 800px;
+}
+#Sobrenos h1{
+    display: flex;
+    justify-content: center;
+}
+#Sobrenos img{
+    width: 200px; 
+  height: 200px; 
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.Nomes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+}
+
