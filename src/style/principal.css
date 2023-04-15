@@ -22,6 +22,10 @@ header {
     justify-content: space-between;
     padding: 10px;
     background-color: #004643;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    position: fixed;
 }
 
 header img {
@@ -63,6 +67,18 @@ nav a::after {
 nav a:hover::after {
     transform: scaleX(1);
     /* faz a linha aparecer ao passar o mouse em cima */
+}
+
+section{
+        padding: 50px;
+		opacity: 0;
+		transform: translateY(50px);
+		transition: all 0.5s ease-in-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #Menu ul {
