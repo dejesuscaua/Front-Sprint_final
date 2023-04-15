@@ -4,16 +4,19 @@ function validateForm() {
 
     if (username == "" || password == "") {
         document.getElementById("error-message").innerHTML = "Usuário e senha são obrigatórios.";
+        console.log("Usuário e senha são obrigatórios.")
         return false;
     }
     
     if (password.length < 8) {
         document.getElementById("error-message").innerHTML = "A senha deve ter no mínimo 8 caracteres.";
+        console.log("A senha deve ter no mínimo 8 caracteres.")
         return false;
     }
 
-    if (username == "ademiro" && password == "cauagostoso"){
-        document.getElementById("error-message").innerHTML = "acertou!!!";
+    if (username == "adm" && password == "fiap123456"){
+        document.getElementById("error-message").innerHTML = "Login feito com sucesso!!!";
+        console.log("Login feito com sucesso!!!")
         return false;
     }
 
